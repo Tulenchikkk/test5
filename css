@@ -1,0 +1,13 @@
+.test {
+width: 50px;
+height: 75px;
+border-radius: 30px;
+position: relative;
+animation: iliketomoveit 5s infinite;
+}
+@keyframes iliketomoveit {
+0% {left: 100px;}
+25% {left: 400px; background: rgb(0, 17, 255);}
+75% {left: 200px;}
+100% {left: px; background: rgb(100, 135, 192);}
+}
